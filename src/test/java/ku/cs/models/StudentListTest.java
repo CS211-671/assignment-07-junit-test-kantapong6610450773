@@ -6,10 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StudentListTest {
 
-    @BeforeEach
-    void init(){
-        StudentList
-    }
 
     @Test
     void addNewStudent() {
