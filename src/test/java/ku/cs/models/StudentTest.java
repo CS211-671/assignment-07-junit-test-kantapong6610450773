@@ -19,7 +19,7 @@ class StudentTest {
     void testCalculateGrade(){
         Student s1 = new Student("61xxxxxx", "Pong");
         s1.addScore(60.8);
-        assertEquals("C", s1.grade());
+        assertEquals('C', s1.grade());
     }
 
     @Test
